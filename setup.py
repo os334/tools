@@ -1,11 +1,7 @@
 from setuptools import setup, find_packages
 
-
-
 with open("requirements.txt", "rt", encoding="utf-8") as fh:
-requirements = [line.strip() for line in fh.readlines()]
-
-
+	requirements = [line.strip() for line in fh.readlines()]
 
 setup(
 	name="tools",
